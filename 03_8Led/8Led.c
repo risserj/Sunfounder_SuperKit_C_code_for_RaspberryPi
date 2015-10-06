@@ -34,11 +34,11 @@ int main(void)
 		for(i=0;i<8;i++){   //make led on from left to right
 			led_on(i);
 			delay(100);
-			led_off(i);
+			//led_off(i);
 		}
 	//	delay(500);
 		for(i=8;i>=0;i--){  //make led off from right to left
-			led_on(i);
+			//led_on(i);
 			delay(100);
 			led_off(i);
 		}
